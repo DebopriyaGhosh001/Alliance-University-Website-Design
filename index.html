@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alliance University</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="assets/Logo_Alliance.png" alt="Alliance University Logo"> <!-- Replace with your logo -->
+            <h1>Alliance University</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to Alliance University</h1>
+        <button class="cta-button">Enroll Now</button>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="courses">
+        <h2>Courses</h2>
+        <div class="course-list">
+            <div class="course-item">
+                <img src="assets/college1.png" alt="Alliance College of Engineering">
+                <h3>Alliance College of Engineering and Design</h3>
+                <p>Offers degree courses aimed at building skill, expertise and knowledge among its graduates in the areas of higher technology and design.</p>
+            </div>
+            <div class="course-item">
+                <img src="assets/law.png" alt="Alliance School of Law">
+                <h3>Alliance School of Law</h3>
+                <p>Leverages a combination of world-class academics and legal practitioners fostering generations of lawyers through cutting-edge legal education.</p>
+            </div>
+            <div class="course-item">
+                <img src="assets/business.png" alt="Alliance School of Business">
+                <h3>Alliance School of Business</h3>
+                <p>Among the best B-Schools in the country, having been ranked among the top B-Schools and for being the first Indian B-School to be accredited by the IACBE, USA.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form action="processForm.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Alliance University</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
