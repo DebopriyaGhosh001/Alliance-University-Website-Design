@@ -1,0 +1,14 @@
+ECHO is on.
+code .gitignore
+# Ignore system directories and logs
+AppData/
+*.log
+*.tmp
+*.bak
+*.old
+
+# Ignore XAMPP-specific directories
+xampp/
+
+# Ignore VS Code-specific settings
+.vscode/
